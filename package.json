@@ -1,0 +1,26 @@
+{
+  "name": "react-native-link",
+  "version": "1.1.0",
+  "description": "A <Link> element for React Native, analogous to the <A> tag in HTML",
+  "main": "link.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exponentjs/react-native-link.git"
+  },
+  "keywords": [
+    "react-native",
+    "link"
+  ],
+  "author": "exponent.team@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/exponentjs/react-native-link/issues"
+  },
+  "homepage": "https://github.com/exponentjs/react-native-link#readme",
+  "peerDependencies": {
+    "react-native-url-handler": "*"
+  }
+}
