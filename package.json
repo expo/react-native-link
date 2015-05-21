@@ -1,6 +1,6 @@
 {
   "name": "react-native-link",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "A <Link> element for React Native, analogous to the <A> tag in HTML",
   "main": "link.js",
   "scripts": {

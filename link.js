@@ -26,7 +26,9 @@ var Link = React.createClass({
   },
 
   _linkPressed() {
-    if (this.props.to && this.props.to.uri) {
+    if (this.props.url) {
+      URLHandler.openURL(this.props.url);
+    } else if (this.props.to && this.props.to.uri) {
       var url = this.props.to.uri;
       URLHandler.openURL(url);
     } else {
