@@ -12,6 +12,7 @@ var {
   ScrollView,
   StyleSheet,
   Text,
+  TouchableHighlight,
   View,
 } = React;
 
@@ -25,11 +26,11 @@ var Link = React.createClass({
   },
 
   _linkPressed() {
-    if (this.props.source && this.props.source.uri) {
-      var url = this.props.source.uri;
+    if (this.props.to && this.props.to.uri) {
+      var url = this.props.to.uri;
       URLHandler.openURL(url);
     } else {
-      console.error("Invalid Link source:", this.props.source);
+      console.error("Invalid Link destination:", this.props.to);
     }
   },
 
