@@ -1,5 +1,5 @@
 {
-  "name": "react-native-link",
+  "name": "@expo/react-native-link",
   "version": "3.0.0",
   "description": "A <Link> element for React Native, analogous to the <A> tag in HTML",
   "main": "link.js",
@@ -14,7 +14,7 @@
     "react-native",
     "link"
   ],
-  "author": "exponent.team@gmail.com",
+  "author": "support@expo.io",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/expo/react-native-link/issues"
