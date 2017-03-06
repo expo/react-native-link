@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/exponentjs/react-native-link.git"
+    "url": "git+https://github.com/expo/react-native-link.git"
   },
   "keywords": [
     "react-native",
@@ -17,9 +17,9 @@
   "author": "exponent.team@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/exponentjs/react-native-link/issues"
+    "url": "https://github.com/expo/react-native-link/issues"
   },
-  "homepage": "https://github.com/exponentjs/react-native-link#readme",
+  "homepage": "https://github.com/expo/react-native-link#readme",
   "peerDependencies": {
     "react-native-url-handler": "*"
   }
