@@ -14,9 +14,8 @@ var {
   Text,
   TouchableHighlight,
   View,
+  Linking,
 } = React;
-
-var URLHandler = require('react-native-url-handler');
 
 var Link = React.createClass({
   render() {
@@ -27,10 +26,10 @@ var Link = React.createClass({
 
   _linkPressed() {
     if (this.props.url) {
-      URLHandler.openURL(this.props.url);
+      Linking.openURL(this.props.url);
     } else if (this.props.to && this.props.to.uri) {
       var url = this.props.to.uri;
-      URLHandler.openURL(url);
+      Linking.openURL(url);
     } else {
       console.error("Invalid Link destination:", this.props.to);
     }
