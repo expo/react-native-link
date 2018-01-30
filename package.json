@@ -19,8 +19,5 @@
   "bugs": {
     "url": "https://github.com/expo/react-native-link/issues"
   },
-  "homepage": "https://github.com/expo/react-native-link#readme",
-  "peerDependencies": {
-    "react-native-url-handler": "*"
-  }
+  "homepage": "https://github.com/expo/react-native-link#readme"
 }
