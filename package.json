@@ -1,6 +1,6 @@
 {
   "name": "@expo/react-native-link",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "A <Link> element for React Native, analogous to the <A> tag in HTML",
   "main": "link.js",
   "scripts": {
